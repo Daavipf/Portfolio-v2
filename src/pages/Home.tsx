@@ -19,10 +19,7 @@ export default function Home() {
           <p className="font-JetBrains text-white md:hidden">
             Sou <span className="text-purple-400">_desenvolvedor web</span>, apaixonado por transformar ideias em realidade
           </p>
-          <div className="flex items-center justify-between">
-            <button className="font-JetBrains cursor-pointer self-start rounded-lg bg-white px-5 py-2.5 shadow transition-colors duration-200 hover:bg-zinc-800 hover:text-white">
-              Currículo
-            </button>
+          <div className="flex items-center justify-end">
             <IconsList />
           </div>
         </div>
