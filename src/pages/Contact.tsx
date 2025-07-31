@@ -8,7 +8,7 @@ export default function Contact() {
         initial={{ translateX: "100%" }}
         exit={{ translateX: "100%" }}
         animate={{ translateX: "0%", transition: { duration: 1 } }}
-        className="ml-24 flex h-full w-full flex-col items-center justify-center gap-6 p-6 md:ml-[15%] md:flex-row"
+        className="ml-24 flex h-screen w-full flex-col items-center justify-center gap-6 p-6 md:ml-[15%] md:flex-row"
       >
         <div className="flex flex-col gap-10">
           <h1 className="font-JetBrains text-5xl font-bold text-white md:text-7xl">Conecte-se comigo</h1>

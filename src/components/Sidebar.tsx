@@ -15,14 +15,14 @@ export default function Sidebar() {
           <SidebarButton page="/" icon={House} />
         </li>
         <li>
+          <SidebarButton page="/wordpress" icon={Wordpress} />
+        </li>
+        <li>
           <SidebarButton page="/about" icon={User} />
         </li>
         {/* <li>
           <SidebarButton page="/projects" icon={Programming} />
         </li> */}
-        <li>
-          <SidebarButton page="/wordpress" icon={Wordpress} />
-        </li>
         {/* <li>
           <SidebarButton page="/experience" icon={Business} />
         </li> */}

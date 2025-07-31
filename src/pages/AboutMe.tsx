@@ -77,7 +77,7 @@ export default function AboutMe() {
         initial={{ translateX: "100%" }}
         exit={{ translateX: "100%" }}
         animate={{ translateX: "0%", transition: { duration: 1 } }}
-        className="ml-24 flex min-h-fit w-full flex-col items-start justify-center gap-6 overflow-x-hidden p-6 md:ml-[15%]"
+        className="ml-24 flex h-screen w-full flex-col items-start justify-center gap-6 overflow-x-hidden p-6 md:ml-[15%]"
       >
         <div className="overflow-y-auto">
           <div className="md:w-1/2">
@@ -88,7 +88,7 @@ export default function AboutMe() {
               no design de soluções modernas e funcionais.{" "}
             </p>
           </div>
-          <div className="mt-12 flex w-full flex-col items-start justify-between md:flex-row">
+          <div className="mt-12 flex w-full flex-col items-start justify-start gap-32 md:flex-row">
             <div className="flex flex-col">
               <h2 className="font-JetBrains text-5xl font-bold text-white md:text-6xl">Tech</h2>
               <TechList subtitle="Stack Principal" icons={mainStack} />

@@ -1,12 +1,18 @@
 import { AnimatePresence, motion } from "motion/react"
 import ProjectCard from "../components/ProjectCard"
-import JReal from "../assets/JReal.png"
-import FatoMais from "../assets/FatoMais.png"
-import Fit4 from "../assets/Fi4.png"
+//import JReal from "../assets/JReal.png"
+import JReal from "../assets/webp/jreal_1.webp"
+//import FatoMais from "../assets/FatoMais.png"
+import FatoMais from "../assets/webp/fatomais_1.webp"
+//import Fit4 from "../assets/Fi4.png"
+import Fit4 from "../assets/webp/fi4_1_11zon.webp"
 //import Prize from "../assets/Prize.png"
-import Guitar from "../assets/Guitar.png"
-import Variety from "../assets/Variety.png"
-import Instituto from "../assets/Instituto.png"
+//import Guitar from "../assets/Guitar.png"
+import Vendas from "../assets/webp/vendas.webp"
+//import Variety from "../assets/Variety.png"
+import Armani from "../assets/webp/armani.webp"
+//import Instituto from "../assets/Instituto.png"
+import Instituto from "../assets/webp/instituto_1_11zon.webp"
 
 const data = [
   {
@@ -32,14 +38,20 @@ const data = [
     linkText: "@Guilherme Horstmann",
   },
   {
-    imageUri: Variety,
-    title: "Variety Prime",
-    description: "Site institucional",
+    imageUri: Armani,
+    title: "Landing Page Armani",
+    description: "Página de vendas empreendimento imobiliário de alto padrão.",
+    credits: "Design por",
+    linkUrl: "https://guilhermehorstmann.com.br/",
+    linkText: "@Guilherme Horstmann",
   },
   {
-    imageUri: Guitar,
+    imageUri: Vendas,
     title: "Página de vendas",
-    description: "Landing page para venda de curso de guitarra",
+    description: "Landing page para masterclass de consultoria de vendas",
+    credits: "Design por",
+    linkUrl: "https://guilhermehorstmann.com.br/",
+    linkText: "@Guilherme Horstmann",
   },
   {
     imageUri: Instituto,
