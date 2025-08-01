@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard"
 //import JReal from "../assets/JReal.png"
 import JReal from "../assets/webp/jreal_1.webp"
 //import FatoMais from "../assets/FatoMais.png"
-import FatoMais from "../assets/webp/fatomais_1.webp"
+import TBI from "../assets/webp/tbiconsult.webp"
 //import Fit4 from "../assets/Fi4.png"
 import Fit4 from "../assets/webp/fi4_1_11zon.webp"
 //import Prize from "../assets/Prize.png"
@@ -16,18 +16,23 @@ import Instituto from "../assets/webp/instituto_1_11zon.webp"
 
 const data = [
   {
-    imageUri: JReal,
-    title: "JReal Imobiliária",
-    description: "Site para empresa imobiliária com visualização de imóveis e sistema de geolocalização",
-  },
-
-  {
-    imageUri: FatoMais,
-    title: "FatoMais Comunicação",
-    description: "Site institucional para empresa de comunicação digital",
+    imageUri: Vendas,
+    title: "Página de vendas",
+    description: "Landing page para masterclass de consultoria de vendas",
     credits: "Design por",
     linkUrl: "https://guilhermehorstmann.com.br/",
     linkText: "@Guilherme Horstmann",
+    siteUrl: "https://mentortabarelli.com.br/mentoria-faixa-preta/"
+  },
+  
+  {
+    imageUri: TBI,
+    title: "TBI Consult",
+    description: "Site para agência especializada em cursos de idiomas para executivos",
+    credits: "Design por",
+    linkUrl: "https://guilhermehorstmann.com.br/",
+    linkText: "@Guilherme Horstmann",
+    siteUrl: "https://tbiconsult.com.br/"
   },
   {
     imageUri: Fit4,
@@ -36,6 +41,7 @@ const data = [
     credits: "Design por",
     linkUrl: "https://guilhermehorstmann.com.br/",
     linkText: "@Guilherme Horstmann",
+    siteUrl: "https://fit4dbest.com.br/"
   },
   {
     imageUri: Armani,
@@ -46,17 +52,16 @@ const data = [
     linkText: "@Guilherme Horstmann",
   },
   {
-    imageUri: Vendas,
-    title: "Página de vendas",
-    description: "Landing page para masterclass de consultoria de vendas",
-    credits: "Design por",
-    linkUrl: "https://guilhermehorstmann.com.br/",
-    linkText: "@Guilherme Horstmann",
+    imageUri: JReal,
+    title: "JReal Imobiliária",
+    description: "Site para empresa imobiliária com visualização de imóveis e sistema de geolocalização",
+    siteUrl: "https://jreal.com.br/"
   },
   {
     imageUri: Instituto,
     title: "Site Institucional Poder do Partejar",
     description: "Site institucional para instituição de ensino da área da saúde",
+    siteUrl:"https://institutopoderdopartejar.com.br/"
   },
 ]
 
@@ -80,6 +85,7 @@ export default function Wordpress() {
                 credits={item.credits && item.credits}
                 linkText={item.linkText && item.linkText}
                 linkUrl={item.linkUrl && item.linkUrl}
+                siteUrl={item.siteUrl && item.siteUrl}
               />
             ))}
           </div>
